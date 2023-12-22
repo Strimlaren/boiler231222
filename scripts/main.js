@@ -25,9 +25,13 @@ lucka24.addEventListener("click", () => {
 
 lucka_23.addEventListener("click", () => {
   lucka_23x.classList.add("show");
-  console.log("Conlraturiaions BananaGuy. You solvde the riddle. Yes or No?");
+  console.log("Conlraturiaions BananaGuy. You solvde the riddles. Yes or No?");
 });
 
 lucka_22.addEventListener("click", () => {
   lucka_22x.classList.add("show");
+
+  setTimeout(() => {
+    lucka_22x.innerHTML = "Wahmageddon ruined";
+  }, 5000);
 });
