@@ -35,10 +35,12 @@ h3 {
   font-size: 1rem;
 }
 
-form {
+form,
+.lucka23,
+.lucka22 {
   display: none;
 }
 
-.show-form {
+.show {
   display: block;
 }
