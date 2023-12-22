@@ -24,8 +24,9 @@ section {
 }
 
 .lucka {
-  width: 150px;
-  height: 200px;
+  width: 200px;
+  height: auto;
   border: 1px solid red;
   padding: 5px;
+  /* display: none; */
 }
