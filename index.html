@@ -13,8 +13,8 @@
 
     <div class="lucka" id="22"></div>
     <div class="lucka" id="23"></div>
-    <div class="lucka" id="24" onclick="dialog()">
-      <form action="submit">
+    <div class="lucka" id="24">24
+      <form>
         <h3>Vem röstade du på senaste valet?</h3>
         <label for="ja">
           <input type="radio" value="ja" id="ja1" name="q1">Ja
@@ -55,9 +55,15 @@
         <label for="njä">
           <input type="radio" value="nnjä" id="njä" name="q4">Njä
         </label>
-        <button class="submit"></button>
+        <button class="submit">Am I good/bad?</button>
       </form>
+
     </div>
+
+    <dialog class="dialog show">
+      <img src="./images/founder.png" alt="linus devil">
+      <button id="close-dialog">Close</button>
+    </dialog>
 
   </section>
 

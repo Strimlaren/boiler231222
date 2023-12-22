@@ -25,8 +25,20 @@ section {
 
 .lucka {
   width: 200px;
-  height: auto;
+  min-height: 200px;
   border: 1px solid red;
   padding: 5px;
   /* display: none; */
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+form {
+  display: none;
+}
+
+.show-form {
+  display: block;
 }
